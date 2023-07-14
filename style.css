@@ -1,0 +1,142 @@
+
+/* Starting css */
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+        }
+        html,body{
+            text-align: center;
+            height: 100%;
+            width:100%;
+            background-color: black;
+        }
+        section{
+        margin-top:20px;
+        }
+        .image_section{
+            display: inline-block;
+            width:25%;
+        }
+        /* Card start */
+        .card{
+        background-color: rgb(203, 39, 159);
+        width: 450px;
+        height: 250px;
+        text-align: start;
+        padding: 20px;
+        margin: auto;
+        position: relative;
+        }
+        .card_2{
+            display: inline-block;
+            background-color: rgb(0, 30, 255);
+            width: 450px;
+            height: 250px;
+            position: relative;
+                padding: 20px;
+                margin: auto;
+        }
+        .card_3{
+            background-color: rgb(233, 233, 41);
+        }
+/*Header style*/
+        header{
+            margin-top: 20px;
+            margin-bottom:10px;
+            font-size: 25px;
+            letter-spacing:5px;
+        }
+        span{
+            color:yellow;
+        }
+/* Card text start */
+        .card-text{
+        position: relative;
+        width:70%;
+        }
+        .card-text_2{
+        text-align: right;
+        display: inline-block;
+        width:70%;
+        }
+        .card-text h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+        }
+        .card-text p{
+        font-size: 20px;
+        }   
+        .card-text_2 h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+        }
+        .card-text_2 p{
+        font-size: 20px; 
+        }
+/* Card Hover Started */
+        .card:hover .img{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        top:0;
+        right: 0;
+        bottom: 0;
+        }
+        .card_2:hover .img_2{
+        height: 100%;
+        width: 100%; 
+        border-radius: 0;
+
+        left: 0;
+        bottom:0;
+
+        }
+        .card:hover .img_3{
+        height: 100%;
+            width: 100%; 
+            border-radius: 0;
+            right: 0;
+            bottom:0;
+        }
+/* Card Image */
+        .img{
+            background-image: url('https://live.staticflickr.com/8372/8473418130_f8bd864ff6.jpg');
+            height: 220px;
+            text-align: right;
+            width:220px;
+            border-radius: 50%;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            top:-28%;
+            right: -20%;
+            transition:700ms;
+            }
+        .img_2{
+    background-image: url('https://static.toiimg.com/photo/63110897.cms');
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -28%;
+    left:-20%;
+    transition:700ms;
+
+        }
+        .img_3{
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/tz-mag-media/wp-content/uploads/2020/06/22113315/10958057673_5774a6508a_o.jpg');
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    bottom: -28%;
+    right:-20%;
+    transition:700ms;
+        }
+

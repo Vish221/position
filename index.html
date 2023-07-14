@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            height: 100%;
+            width:100%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    .card{
+        background-color: aqua;
+        display: inline-block;
+        position: absolute;
+        top:25%;
+        left:20%;
+    }
+.img{
+    
+    border:1px solid black;
+    display: inline-block;
+    width:350px;
+    height: 350px;
+    position: relative; 
+    margin: 20px 20px;
+}
+ .first{
+   background:url('dog1.webp');
+   background-size: cover;
+    background-position: center;
+ } 
+ .second{
+    background: url('dog2.jpg');
+    background-size: cover;
+    background-position: center;
+ }  
+ .third{
+    background:url('do3.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+    p{
+        text-align: center;
+        font-size: 35px;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         color: white;
+         right:0;
+         background-color: rgba(0,0,0,0.5);
+    }
+    </style>
+</head>
+<body>
+    <section>
+    <div class="card">
+            <div class="first img">
+                <p>First</p>
+            </div>
+            <div class="second img">
+                <p>Second</p>
+            </div>
+            <div class="third img">
+                <p>Third</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
