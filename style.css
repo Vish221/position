@@ -54,7 +54,7 @@
         }
 /* Card text start */
         .card-text{
-        position: relative;
+        
         width:70%;
         }
         .card-text_2{
@@ -104,39 +104,40 @@
 /* Card Image */
         .img{
             background-image: url('https://live.staticflickr.com/8372/8473418130_f8bd864ff6.jpg');
-            height: 220px;
+            height: 120px;
             text-align: right;
-            width:220px;
-            border-radius: 50%;
+            width:120px;
+            /* border-radius: 50%; */
             display: inline-block;
             background-repeat: no-repeat;
             background-position: center;
             position: absolute;
-            top:-28%;
-            right: -20%;
+            border-bottom-left-radius:100%;
+            top:0;
+            right: 0;
             transition:700ms;
             }
         .img_2{
     background-image: url('https://static.toiimg.com/photo/63110897.cms');
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    bottom: -28%;
-    left:-20%;
+    border-top-right-radius:100%;
+    bottom: 0;
+    left: 0;
     transition:700ms;
 
         }
         .img_3{
     background-image: url('https://s3-ap-southeast-1.amazonaws.com/tz-mag-media/wp-content/uploads/2020/06/22113315/10958057673_5774a6508a_o.jpg');
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 100%;
     position: absolute;
     background-position: center;
     background-size: cover;
-    bottom: -28%;
-    right:-20%;
+    right:0;
+    bottom: 0;
     transition:700ms;
         }
 
